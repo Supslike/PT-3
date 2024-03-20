@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(241,212,202);
+}
+
+.title-page {
+    margin-top: 5vh;
+    height: 10vh;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    color: #9B7A71;
+    font-size: 0.5in;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.item-container {
+    width: 30%;
+    height: 60vh;
+    background-color: white;
+    padding: 1%;
+    border-radius: 10px;
+    position: relative;
+}
+
+.outline {
+    padding: 1%;
+    border: #E8BDB1 2px solid;
+    width: 99%;
+    height: 99%;
+}
+
+.label {
+    text-align: center;
+    transform: translateY(-59vh);
+    display: flex;
+    justify-content: center;
+    font-family: "Nunito", sans-serif;
+}
+
+.label h2 {
+    width: 200px;
+    text-align: center;
+    border-radius: 5px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#even-label {
+    background-color: #D48E70;
+}
+
+#odd-label {
+    background-color: #70A1D4;
+}
+
+.items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 4vh;
+    padding: 3%;
+    text-align: center;
+    row-gap: 20px;
+    column-gap: 10px;
+    font-size: 20px;
+}
+
+.int-collector {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-family: Nunito;
+}
+
+button {
+    background-color: #70A1D4;
+    color: white;
+    padding: 0.5% 2%;
+    border: none;
+    border-radius: 5px;
+    font-family: Nunito;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.541);
+}
+
+input {
+    width: 20%;
+    background-color: rgba(255, 194, 170, 0.524);
+    border: none;
+    border: 1px solid rgb(248, 174, 145);
+    height: 30px;
+    padding: 0.2% 1%;
+}
+
+p {
+    border: 1px black solid;
+    border-radius: 2px;
+    font-family: Nunito;
+}
+
+.sum {
+    display: flex;
+    position: fixed;
+    height: 5vh;
+    top: 80vh;
+    margin-left: 0.3in;
+    align-items: center;
+    gap: 10px;
+    font-family: Nunito;
+}
+
+
+input:focus {
+    outline: none;
+}
